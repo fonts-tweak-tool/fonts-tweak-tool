@@ -28,6 +28,9 @@ class ChooserUI:
         self.filtered_model.set_visible_func(filter_func, self.filter)
         self.view.set_model(self.filtered_model)
 
+    def on_chooser_dialog_show(self, widget):
+        self.filter.grab_focus()
+
     def on_filter_notify_text(self, widget, param):
         text = widget.get_text()
         if len(text) == 0:
