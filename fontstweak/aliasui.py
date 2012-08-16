@@ -49,6 +49,10 @@ class FontsTweakAliasUI:
         self.view.append_column(Gtk.TreeViewColumn(None, Gtk.CellRendererText(), text=0))
         self.view_list = builder.get_object('alias-lang-list')
         self.filter = builder.get_object('checkbutton-filter')
+        self.localized_name = builder.get_object('checkbutton-localized-name')
+        if len(Easyfc.Font.get_list('en', 'sans-serif', self.localized_name.get_active())) == 0:
+            self.localized_name.set_active(True)
+            self.localized_name.set_sensitive(False)
         self.comboboxes = {}
         self.labels = {}
         self.lists = {}
@@ -128,6 +132,9 @@ class FontsTweakAliasUI:
         return False
 
     def on_checkbutton_filter_toggled(self, widget):
+        self.on_treeview_selection_changed(self.selector)
+
+    def on_checkbutton_localized_name_toggled(self, widget):
         self.on_treeview_selection_changed(self.selector)
 
     def on_combobox_sans_serif_changed(self, widget, *args):
@@ -219,13 +226,17 @@ class FontsTweakAliasUI:
         else:
             kalias = alias
         if self.fonts[lang].has_key(kalias) == False:
-            self.fonts[lang][kalias] = Easyfc.Font.get_list(lang, kalias, False)
-        if len(self.fonts[lang][kalias]) == 0:
+            self.fonts[lang][kalias] = {}
+        flocalized = self.localized_name.get_active()
+        if self.fonts[lang][kalias].has_key(flocalized) == False:
+            self.fonts[lang][kalias][flocalized] = Easyfc.Font.get_list(lang, kalias, flocalized)
+        if len(self.fonts[lang][kalias][flocalized]) == 0:
             # fontconfig seems not supporting the namelang object
-            self.fonts[lang][kalias] = Easyfc.Font.get_list(lang, kalias, True)
+            flocalized = True
+            self.fonts[lang][kalias][flocalized] = Easyfc.Font.get_list(lang, kalias, flocalized)
         self.lists[alias].clear()
         self.lists[alias].append([alias])
-        for f in self.fonts[lang][kalias]:
+        for f in self.fonts[lang][kalias][flocalized]:
             self.lists[alias].append([f])
         fn = None
         for a in self.config.get_aliases(lang):
