@@ -2,28 +2,30 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-30 11:32+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2012-08-30 05:11-0400\n"
+"Last-Translator: eyukselci <eyukselci@gmail.com>\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>1)\n"
+"X-Generator: Zanata 1.6.1\n"
 
 #: ../data/chooser.ui.h:1
 msgid "Select an item to add"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author eyukselci
 #: ../data/fonts-tweak-alias.ui.h:1 ../data/fonts-tweak-lang.ui.h:2
 msgid "Add a language"
-msgstr ""
+msgstr "Dil ekle"
 
 #: ../data/fonts-tweak-alias.ui.h:2 ../data/fonts-tweak-lang.ui.h:3
 msgid "Remove the language"
@@ -73,17 +75,21 @@ msgstr ""
 msgid "<b>Aliases</b>"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author eyukselci
 #: ../data/fonts-tweak-alias.ui.h:14 ../data/fonts-tweak-prop.ui.h:14
 msgid "page 1"
-msgstr ""
+msgstr "sayfa 1"
 
 #: ../data/fonts-tweak-alias.ui.h:15
 msgid "Please select a language."
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author eyukselci
 #: ../data/fonts-tweak-alias.ui.h:16 ../data/fonts-tweak-prop.ui.h:16
 msgid "page 2"
-msgstr ""
+msgstr "sayfa 2"
 
 #: ../data/fonts-tweak-lang.ui.h:1
 msgid "Add languages you prefer to see."
@@ -177,6 +183,8 @@ msgstr ""
 msgid "Tweak fonts by language using fontconfig"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author eyukselci
 #: ../fontstweak/util.py:70
 msgid "Default"
-msgstr ""
+msgstr "Varsayılan"

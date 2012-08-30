@@ -2,32 +2,38 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-30 11:32+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2012-06-23 11:11-0400\n"
+"Last-Translator: gcintra <gcintra@fedoraproject.org>\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt-BR\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Zanata 1.6.1\n"
 
 #: ../data/chooser.ui.h:1
 msgid "Select an item to add"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-alias.ui.h:1 ../data/fonts-tweak-lang.ui.h:2
+#, fuzzy
 msgid "Add a language"
-msgstr ""
+msgstr "Adicionar um Idioma"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-alias.ui.h:2 ../data/fonts-tweak-lang.ui.h:3
+#, fuzzy
 msgid "Remove the language"
-msgstr ""
+msgstr "Remover o idioma"
 
 #: ../data/fonts-tweak-alias.ui.h:3
 msgid "Do not filter the font family name by classification."
@@ -41,25 +47,40 @@ msgstr ""
 msgid "<b>General</b>"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-alias.ui.h:6
+#, fuzzy
 msgid "Sans Serif:"
-msgstr ""
+msgstr "Sans Serif:"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-alias.ui.h:7
+#, fuzzy
 msgid "Serif:"
-msgstr ""
+msgstr "Serif:"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-alias.ui.h:8
+#, fuzzy
 msgid "Monospace:"
-msgstr ""
+msgstr "Monoespaço:"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-alias.ui.h:9
+#, fuzzy
 msgid "Cursive:"
-msgstr ""
+msgstr "Cursivo:"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-alias.ui.h:10
+#, fuzzy
 msgid "Fantasy:"
-msgstr ""
+msgstr "Fantasia:"
 
 #: ../data/fonts-tweak-alias.ui.h:11
 msgid "Sample:"
@@ -69,33 +90,51 @@ msgstr ""
 msgid "The quick brown fox jumps over the lazy dog. 1234567890"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-alias.ui.h:13
+#, fuzzy
 msgid "<b>Aliases</b>"
-msgstr ""
+msgstr "<b>Alias fonts:</b>"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-alias.ui.h:14 ../data/fonts-tweak-prop.ui.h:14
+#, fuzzy
 msgid "page 1"
-msgstr ""
+msgstr "Página 1"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-alias.ui.h:15
+#, fuzzy
 msgid "Please select a language."
-msgstr ""
+msgstr "Por favor selecione um Idioma"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-alias.ui.h:16 ../data/fonts-tweak-prop.ui.h:16
+#, fuzzy
 msgid "page 2"
-msgstr ""
+msgstr "Página 2"
 
 #: ../data/fonts-tweak-lang.ui.h:1
 msgid "Add languages you prefer to see."
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-lang.ui.h:4
+#, fuzzy
 msgid "Move the selected language up"
-msgstr ""
+msgstr "Por favor selecione um Idioma"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-lang.ui.h:5
+#, fuzzy
 msgid "Move the selected language down"
-msgstr ""
+msgstr "Por favor selecione um Idioma"
 
 #: ../data/fonts-tweak-prop.ui.h:1
 msgid "None"
@@ -117,9 +156,12 @@ msgstr ""
 msgid "Add a font"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-prop.ui.h:6
+#, fuzzy
 msgid "Remove the font"
-msgstr ""
+msgstr "Remover o idioma"
 
 #: ../data/fonts-tweak-prop.ui.h:7
 msgid "Use the sub-pixel rendering"
@@ -141,13 +183,19 @@ msgstr ""
 msgid "Use automatic-hinting feature"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-prop.ui.h:13
+#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr ""
+msgstr "<b>Alias fonts:</b>"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../data/fonts-tweak-prop.ui.h:15
+#, fuzzy
 msgid "Please select a font."
-msgstr ""
+msgstr "Por favor selecione um Idioma"
 
 #: ../data/fonts-tweak-prop.ui.h:17
 msgid "Grayscale"
@@ -169,13 +217,19 @@ msgstr ""
 msgid "VBGR"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../fonts-tweak-tool.desktop.in.h:1
+#, fuzzy
 msgid "Fonts Tweak Tool"
-msgstr ""
+msgstr "Ferramenta Fonts Tweak"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author gcintra
 #: ../fonts-tweak-tool.desktop.in.h:2
+#, fuzzy
 msgid "Tweak fonts by language using fontconfig"
-msgstr ""
+msgstr "As fontes do Tweak por idioma utilizando o fontconfig"
 
 #: ../fontstweak/util.py:70
 msgid "Default"

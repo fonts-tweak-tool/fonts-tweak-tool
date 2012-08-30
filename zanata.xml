@@ -1,0 +1,86 @@
+<config xmlns="http://zanata.org/namespace/config/">
+  <url>https://translate.zanata.org/zanata/</url>
+  <project>fonts-tweak-tool</project>
+  <project-version>master</project-version>
+  <project-type>gettext</project-type>
+  <locales>
+    <locale>af</locale>
+    <locale>am</locale>
+    <locale>ar</locale>
+    <locale>as</locale>
+    <locale>ast</locale>
+    <locale>az</locale>
+    <locale>bg</locale>
+    <locale map-from="bn">bn-BD</locale>
+    <locale>bn-IN</locale>
+    <locale>brx</locale>
+    <locale>bs</locale>
+    <locale>ca</locale>
+    <locale>cs</locale>
+    <locale>cy</locale>
+    <locale>da</locale>
+    <locale>de-CH</locale>
+    <locale map-from="de">de-DE</locale>
+    <locale>el</locale>
+    <locale>en-GB</locale>
+    <locale>eo</locale>
+    <locale map-from="es">es-ES</locale>
+    <locale>es-MX</locale>
+    <locale>et</locale>
+    <locale map-from="eu_ES">eu</locale>
+    <locale>fa</locale>
+    <locale>fi</locale>
+    <locale>fr</locale>
+    <locale>ga</locale>
+    <locale>gl</locale>
+    <locale>gu</locale>
+    <locale>he</locale>
+    <locale>hi</locale>
+    <locale>hr</locale>
+    <locale>hu</locale>
+    <locale>id</locale>
+    <locale>is</locale>
+    <locale>it</locale>
+    <locale>ja</locale>
+    <locale>ka</locale>
+    <locale>kn</locale>
+    <locale>ko</locale>
+    <locale>ky</locale>
+    <locale>la</locale>
+    <locale>lt</locale>
+    <locale>lv</locale>
+    <locale>mai</locale>
+    <locale>ml</locale>
+    <locale>mn</locale>
+    <locale>mr</locale>
+    <locale>ms</locale>
+    <locale>nb</locale>
+    <locale>nds</locale>
+    <locale>nl</locale>
+    <locale>nn</locale>
+    <locale>or</locale>
+    <locale>pa</locale>
+    <locale>pl</locale>
+    <locale>pt-BR</locale>
+    <locale map-from="pt">pt-PT</locale>
+    <locale>ro</locale>
+    <locale>ru</locale>
+    <locale>si</locale>
+    <locale>sk</locale>
+    <locale>sl</locale>
+    <locale>sq</locale>
+    <locale map-from="sr">sr-Cyrl</locale>
+    <locale map-from="sr@latin">sr-Latn</locale>
+    <locale>sv</locale>
+    <locale map-from="ta">ta-IN</locale>
+    <locale>te</locale>
+    <locale>th</locale>
+    <locale>tl</locale>
+    <locale>tr</locale>
+    <locale>uk</locale>
+    <locale>vi</locale>
+    <locale>xh</locale>
+    <locale map-from="zh_CN">zh-Hans-CN</locale>
+    <locale map-from="zh_TW">zh-Hant-TW</locale>
+  </locales>
+</config>

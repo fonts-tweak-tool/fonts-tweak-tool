@@ -3,31 +3,36 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-30 11:32+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2012-08-30 05:11-0400\n"
+"Last-Translator: jamesni <jni@redhat.com>\n"
+"Language-Team: Chinese (Traditional, Taiwan)\n"
+"Language: zh-Hant-TW\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"X-Generator: Zanata 1.6.1\n"
 
 #: ../data/chooser.ui.h:1
 msgid "Select an item to add"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
 #: ../data/fonts-tweak-alias.ui.h:1 ../data/fonts-tweak-lang.ui.h:2
 msgid "Add a language"
-msgstr ""
+msgstr "加入一門語言"
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
 #: ../data/fonts-tweak-alias.ui.h:2 ../data/fonts-tweak-lang.ui.h:3
 msgid "Remove the language"
-msgstr ""
+msgstr "移除語言"
 
 #: ../data/fonts-tweak-alias.ui.h:3
 msgid "Do not filter the font family name by classification."
@@ -41,25 +46,35 @@ msgstr ""
 msgid "<b>General</b>"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
 #: ../data/fonts-tweak-alias.ui.h:6
 msgid "Sans Serif:"
-msgstr ""
+msgstr "無襯線字型："
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
 #: ../data/fonts-tweak-alias.ui.h:7
 msgid "Serif:"
-msgstr ""
+msgstr "有襯線字型："
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
 #: ../data/fonts-tweak-alias.ui.h:8
 msgid "Monospace:"
-msgstr ""
+msgstr "等寬字型："
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
 #: ../data/fonts-tweak-alias.ui.h:9
 msgid "Cursive:"
-msgstr ""
+msgstr "連字字型："
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
 #: ../data/fonts-tweak-alias.ui.h:10
 msgid "Fantasy:"
-msgstr ""
+msgstr "華麗字型："
 
 #: ../data/fonts-tweak-alias.ui.h:11
 msgid "Sample:"
@@ -69,33 +84,49 @@ msgstr ""
 msgid "The quick brown fox jumps over the lazy dog. 1234567890"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author zerng07
 #: ../data/fonts-tweak-alias.ui.h:13
+#, fuzzy
 msgid "<b>Aliases</b>"
-msgstr ""
+msgstr "<b>化名字型：</b>"
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
 #: ../data/fonts-tweak-alias.ui.h:14 ../data/fonts-tweak-prop.ui.h:14
 msgid "page 1"
-msgstr ""
+msgstr "第一頁"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author zerng07
 #: ../data/fonts-tweak-alias.ui.h:15
+#, fuzzy
 msgid "Please select a language."
-msgstr ""
+msgstr "請選取一門語言"
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
 #: ../data/fonts-tweak-alias.ui.h:16 ../data/fonts-tweak-prop.ui.h:16
 msgid "page 2"
-msgstr ""
+msgstr "第二頁"
 
 #: ../data/fonts-tweak-lang.ui.h:1
 msgid "Add languages you prefer to see."
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author zerng07
 #: ../data/fonts-tweak-lang.ui.h:4
+#, fuzzy
 msgid "Move the selected language up"
-msgstr ""
+msgstr "請選取一門語言"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author zerng07
 #: ../data/fonts-tweak-lang.ui.h:5
+#, fuzzy
 msgid "Move the selected language down"
-msgstr ""
+msgstr "請選取一門語言"
 
 #: ../data/fonts-tweak-prop.ui.h:1
 msgid "None"
@@ -117,9 +148,12 @@ msgstr ""
 msgid "Add a font"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author zerng07
 #: ../data/fonts-tweak-prop.ui.h:6
+#, fuzzy
 msgid "Remove the font"
-msgstr ""
+msgstr "移除語言"
 
 #: ../data/fonts-tweak-prop.ui.h:7
 msgid "Use the sub-pixel rendering"
@@ -141,13 +175,19 @@ msgstr ""
 msgid "Use automatic-hinting feature"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author zerng07
 #: ../data/fonts-tweak-prop.ui.h:13
+#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr ""
+msgstr "<b>化名字型：</b>"
 
+# translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
+# document fonts-tweak-tool, author zerng07
 #: ../data/fonts-tweak-prop.ui.h:15
+#, fuzzy
 msgid "Please select a font."
-msgstr ""
+msgstr "請選取一門語言"
 
 #: ../data/fonts-tweak-prop.ui.h:17
 msgid "Grayscale"
@@ -169,13 +209,17 @@ msgstr ""
 msgid "VBGR"
 msgstr ""
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
 #: ../fonts-tweak-tool.desktop.in.h:1
 msgid "Fonts Tweak Tool"
-msgstr ""
+msgstr "字型調校工具"
 
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
 #: ../fonts-tweak-tool.desktop.in.h:2
 msgid "Tweak fonts by language using fontconfig"
-msgstr ""
+msgstr "使用 fontconfig 依照語言調校字型 "
 
 #: ../fontstweak/util.py:70
 msgid "Default"
