@@ -49,11 +49,11 @@ bin_SCRIPTS =			\
 
 ##
 all-local:
-	$(PYTHON) $(top_srcdir)/setup.py build
+	$(PYTHON) setup.py build
 
 ##
 install-exec-local:
-	$(PYTHON) $(top_srcdir)/setup.py install --root=$(DESTDIR) --prefix=$(prefix)
+	$(PYTHON) setup.py install --root=$(DESTDIR) --prefix=$(prefix)
 
 ##
 uninstall-local:

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: fonts-tweak-tool\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-30 11:32+0900\n"
+"POT-Creation-Date: 2012-09-19 12:36+0900\n"
 "PO-Revision-Date: 2012-04-25 07:19-0400\n"
 "Last-Translator: Tommy He <lovenemesis@fedoraproject.org>\n"
 "Language-Team: Fedora <trans-zh_cn@lists.fedoraproject.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Zanata 1.6.1\n"
+"X-Generator: Zanata 1.7.1\n"
 "X-Poedit-Country: CHINA\n"
 "X-Poedit-Language: Chinese\n"
 
@@ -91,22 +91,10 @@ msgstr "The quick brown fox jumps over the lazy dog"
 msgid "<b>Aliases</b>"
 msgstr "<b>别名字体：</b>"
 
-# translation auto-copied from project Fonts Tweak Tool, version master,
-# document po/fonts-tweak-tool
-#: ../data/fonts-tweak-alias.ui.h:14 ../data/fonts-tweak-prop.ui.h:14
-msgid "page 1"
-msgstr "页 1"
-
-#: ../data/fonts-tweak-alias.ui.h:15
+#: ../data/fonts-tweak-alias.ui.h:14
 #, fuzzy
 msgid "Please select a language."
 msgstr "请选择一个语言"
-
-# translation auto-copied from project Fonts Tweak Tool, version master,
-# document po/fonts-tweak-tool
-#: ../data/fonts-tweak-alias.ui.h:16 ../data/fonts-tweak-prop.ui.h:16
-msgid "page 2"
-msgstr "页 2"
 
 #: ../data/fonts-tweak-lang.ui.h:1
 msgid "Add languages you prefer to see."
@@ -172,28 +160,28 @@ msgstr ""
 msgid "<b>Hinting</b>"
 msgstr "<b>别名字体：</b>"
 
-#: ../data/fonts-tweak-prop.ui.h:15
+#: ../data/fonts-tweak-prop.ui.h:14
 #, fuzzy
 msgid "Please select a font."
 msgstr "请选择一个语言"
 
-#: ../data/fonts-tweak-prop.ui.h:17
+#: ../data/fonts-tweak-prop.ui.h:15
 msgid "Grayscale"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:18
+#: ../data/fonts-tweak-prop.ui.h:16
 msgid "RGB"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:19
+#: ../data/fonts-tweak-prop.ui.h:17
 msgid "BGR"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:20
+#: ../data/fonts-tweak-prop.ui.h:18
 msgid "VRGB"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:21
+#: ../data/fonts-tweak-prop.ui.h:19
 msgid "VBGR"
 msgstr ""
 
@@ -212,3 +200,13 @@ msgstr "使用 fontconfig 微调字体"
 #: ../fontstweak/util.py:70
 msgid "Default"
 msgstr ""
+
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool
+#~ msgid "page 1"
+#~ msgstr "页 1"
+
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool
+#~ msgid "page 2"
+#~ msgstr "页 2"

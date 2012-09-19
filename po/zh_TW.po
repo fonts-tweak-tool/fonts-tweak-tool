@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-30 11:32+0900\n"
+"POT-Creation-Date: 2012-09-19 12:36+0900\n"
 "PO-Revision-Date: 2012-08-30 05:11-0400\n"
 "Last-Translator: jamesni <jni@redhat.com>\n"
 "Language-Team: Chinese (Traditional, Taiwan)\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: Zanata 1.6.1\n"
+"X-Generator: Zanata 1.7.1\n"
 
 #: ../data/chooser.ui.h:1
 msgid "Select an item to add"
@@ -91,24 +91,12 @@ msgstr ""
 msgid "<b>Aliases</b>"
 msgstr "<b>化名字型：</b>"
 
-# translation auto-copied from project Fonts Tweak Tool, version master,
-# document po/fonts-tweak-tool, author jamesni
-#: ../data/fonts-tweak-alias.ui.h:14 ../data/fonts-tweak-prop.ui.h:14
-msgid "page 1"
-msgstr "第一頁"
-
 # translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
 # document fonts-tweak-tool, author zerng07
-#: ../data/fonts-tweak-alias.ui.h:15
+#: ../data/fonts-tweak-alias.ui.h:14
 #, fuzzy
 msgid "Please select a language."
 msgstr "請選取一門語言"
-
-# translation auto-copied from project Fonts Tweak Tool, version master,
-# document po/fonts-tweak-tool, author jamesni
-#: ../data/fonts-tweak-alias.ui.h:16 ../data/fonts-tweak-prop.ui.h:16
-msgid "page 2"
-msgstr "第二頁"
 
 #: ../data/fonts-tweak-lang.ui.h:1
 msgid "Add languages you prefer to see."
@@ -184,28 +172,28 @@ msgstr "<b>化名字型：</b>"
 
 # translation auto-copied from project Fonts Tweak Tool, version 0.0.5,
 # document fonts-tweak-tool, author zerng07
-#: ../data/fonts-tweak-prop.ui.h:15
+#: ../data/fonts-tweak-prop.ui.h:14
 #, fuzzy
 msgid "Please select a font."
 msgstr "請選取一門語言"
 
-#: ../data/fonts-tweak-prop.ui.h:17
+#: ../data/fonts-tweak-prop.ui.h:15
 msgid "Grayscale"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:18
+#: ../data/fonts-tweak-prop.ui.h:16
 msgid "RGB"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:19
+#: ../data/fonts-tweak-prop.ui.h:17
 msgid "BGR"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:20
+#: ../data/fonts-tweak-prop.ui.h:18
 msgid "VRGB"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:21
+#: ../data/fonts-tweak-prop.ui.h:19
 msgid "VBGR"
 msgstr ""
 
@@ -224,3 +212,13 @@ msgstr "使用 fontconfig 依照語言調校字型 "
 #: ../fontstweak/util.py:70
 msgid "Default"
 msgstr ""
+
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
+#~ msgid "page 1"
+#~ msgstr "第一頁"
+
+# translation auto-copied from project Fonts Tweak Tool, version master,
+# document po/fonts-tweak-tool, author jamesni
+#~ msgid "page 2"
+#~ msgstr "第二頁"

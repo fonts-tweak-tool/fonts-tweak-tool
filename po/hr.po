@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-08-30 11:32+0900\n"
+"POT-Creation-Date: 2012-09-19 12:36+0900\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: Croatian\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Zanata 1.6.1\n"
+"X-Generator: Zanata 1.7.1\n"
 
 #: ../data/chooser.ui.h:1
 msgid "Select an item to add"
@@ -74,16 +74,8 @@ msgstr ""
 msgid "<b>Aliases</b>"
 msgstr ""
 
-#: ../data/fonts-tweak-alias.ui.h:14 ../data/fonts-tweak-prop.ui.h:14
-msgid "page 1"
-msgstr ""
-
-#: ../data/fonts-tweak-alias.ui.h:15
+#: ../data/fonts-tweak-alias.ui.h:14
 msgid "Please select a language."
-msgstr ""
-
-#: ../data/fonts-tweak-alias.ui.h:16 ../data/fonts-tweak-prop.ui.h:16
-msgid "page 2"
 msgstr ""
 
 #: ../data/fonts-tweak-lang.ui.h:1
@@ -146,27 +138,27 @@ msgstr ""
 msgid "<b>Hinting</b>"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:15
+#: ../data/fonts-tweak-prop.ui.h:14
 msgid "Please select a font."
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:17
+#: ../data/fonts-tweak-prop.ui.h:15
 msgid "Grayscale"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:18
+#: ../data/fonts-tweak-prop.ui.h:16
 msgid "RGB"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:19
+#: ../data/fonts-tweak-prop.ui.h:17
 msgid "BGR"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:20
+#: ../data/fonts-tweak-prop.ui.h:18
 msgid "VRGB"
 msgstr ""
 
-#: ../data/fonts-tweak-prop.ui.h:21
+#: ../data/fonts-tweak-prop.ui.h:19
 msgid "VBGR"
 msgstr ""
 
