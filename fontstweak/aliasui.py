@@ -50,7 +50,7 @@ class FontsTweakAliasUI:
         self.view_list = builder.get_object('alias-lang-list')
         self.filter = builder.get_object('checkbutton-filter')
         self.localized_name = builder.get_object('checkbutton-localized-name')
-        if len(Easyfc.Font.get_list('en', 'sans-serif', self.localized_name.get_active())) == 0:
+        if len(Easyfc.Font.get_list('en', 'sans-serif', False)) == 0:
             self.localized_name.set_active(True)
             self.localized_name.set_sensitive(False)
         self.comboboxes = {}
