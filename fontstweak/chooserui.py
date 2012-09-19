@@ -24,12 +24,23 @@ class ChooserUI:
         self.filter = builder.get_object('filter')
         self.filter.connect('notify::text', self.on_filter_notify_text)
         self.view = builder.get_object('treeview')
+        self.selector = builder.get_object('treeview-selection')
         self.filtered_model = model.filter_new()
         self.filtered_model.set_visible_func(filter_func, self.filter)
         self.view.set_model(self.filtered_model)
+        self.add = builder.get_object('button-add')
+
+    def _set_cursor(self):
+        iter = self.filtered_model.get_iter_first()
+        path = self.filtered_model.get_path(iter)
+        self.view.set_cursor(path, None, False)
 
     def on_chooser_dialog_show(self, widget):
         self.filter.grab_focus()
+        self._set_cursor()
+
+    def on_filter_activate(self, widget):
+        self.add.clicked()
 
     def on_filter_notify_text(self, widget, param):
         text = widget.get_text()
@@ -42,6 +53,13 @@ class ChooserUI:
             widget.set_property('secondary-icon-activatable', True)
             widget.set_property('secondary-icon-sensitive', True)
         self.filtered_model.refilter()
+        model = self.filtered_model.get_model()
+        if self.filtered_model.iter_n_children(None) == 0:
+            self.add.set_sensitive(False)
+        else:
+            self.add.set_sensitive(True)
+            if self.selector.get_selected()[1] == None:
+                self._set_cursor()
 
     def on_filter_icon_release(self, widget, pos, event):
         widget.set_text('')
