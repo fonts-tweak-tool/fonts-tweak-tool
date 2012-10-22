@@ -1,6 +1,6 @@
 dnl Process this file with autoconf to produce a configure script.
 AC_PREREQ(2.62)
-AC_INIT([fonts-tweak-tool], 0.1.0, [https://github.com/fonts-tweak-tool/fonts-tweak-tool/issues])
+AC_INIT([fonts-tweak-tool], 0.1.1, [https://github.com/fonts-tweak-tool/fonts-tweak-tool/issues])
 
 AM_INIT_AUTOMAKE
 AM_MAINTAINER_MODE
