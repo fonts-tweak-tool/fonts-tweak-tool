@@ -211,8 +211,6 @@ class FontsTweakPropUI:
         except gi._glib.GError, e:
             if e.domain != 'ezfc-error-quark' and e.code != 6:
                 raise
-            else:
-                print "%s: %s" % (sys.argv[0], e)
 
     def add_font(self, font):
         retval = True

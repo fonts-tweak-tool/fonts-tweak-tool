@@ -198,8 +198,6 @@ class FontsTweakAliasUI:
         except gi._glib.GError, e:
             if e.domain != 'ezfc-error-quark' and e.code != 6:
                 raise
-            else:
-                print "%s: %s" % (sys.argv[0], e)
         self.on_treeview_selection_changed(self.selector)
 
     def add_language(self, name, tag):
