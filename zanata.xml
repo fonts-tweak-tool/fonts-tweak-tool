@@ -4,82 +4,87 @@
   <project-version>master</project-version>
   <project-type>gettext</project-type>
   <locales>
-    <locale>af</locale>
-    <locale>am</locale>
-    <locale>ar</locale>
-    <locale>as</locale>
-    <locale>ast</locale>
-    <locale>az</locale>
-    <locale>bg</locale>
-    <locale map-from="bn">bn-BD</locale>
-    <locale>bn-IN</locale>
-    <locale>brx</locale>
-    <locale>bs</locale>
-    <locale>ca</locale>
-    <locale>cs</locale>
-    <locale>cy</locale>
-    <locale>da</locale>
-    <locale>de-CH</locale>
-    <locale map-from="de">de-DE</locale>
-    <locale>el</locale>
-    <locale>en-GB</locale>
-    <locale>eo</locale>
-    <locale map-from="es">es-ES</locale>
-    <locale>es-MX</locale>
-    <locale>et</locale>
+    <locale map-from="af">af</locale>
+    <locale map-from="am">am</locale>
+    <locale map-from="ar">ar</locale>
+    <locale map-from="as">as</locale>
+    <locale map-from="ast">ast</locale>
+    <locale map-from="az">az</locale>
+    <locale map-from="bg">bg</locale>
+    <locale>bn-BD</locale>
+    <locale map-from="bn_IN">bn-IN</locale>
+    <locale>br</locale>
+    <locale map-from="brx">brx</locale>
+    <locale map-from="bs">bs</locale>
+    <locale map-from="ca">ca</locale>
+    <locale map-from="cs">cs</locale>
+    <locale map-from="cy">cy</locale>
+    <locale map-from="da">da</locale>
+    <locale map-from="de">de</locale>
+    <locale map-from="de_CH">de-CH</locale>
+    <locale>de-DE</locale>
+    <locale map-from="el">el</locale>
+    <locale map-from="en_GB">en-GB</locale>
+    <locale map-from="eo">eo</locale>
+    <locale map-from="es">es</locale>
+    <locale>es-ES</locale>
+    <locale map-from="es_MX">es-MX</locale>
+    <locale map-from="et">et</locale>
     <locale map-from="eu_ES">eu</locale>
-    <locale>fa</locale>
-    <locale>fi</locale>
-    <locale>fr</locale>
-    <locale>ga</locale>
-    <locale>gl</locale>
-    <locale>gu</locale>
-    <locale>he</locale>
-    <locale>hi</locale>
-    <locale>hr</locale>
-    <locale>hu</locale>
-    <locale>id</locale>
-    <locale>is</locale>
-    <locale>it</locale>
-    <locale>ja</locale>
-    <locale>ka</locale>
-    <locale>kn</locale>
-    <locale>ko</locale>
-    <locale>ky</locale>
-    <locale>la</locale>
-    <locale>lt</locale>
-    <locale>lv</locale>
-    <locale>mai</locale>
-    <locale>ml</locale>
-    <locale>mn</locale>
-    <locale>mr</locale>
-    <locale>ms</locale>
-    <locale>nb</locale>
-    <locale>nds</locale>
-    <locale>nl</locale>
-    <locale>nn</locale>
-    <locale>or</locale>
-    <locale>pa</locale>
-    <locale>pl</locale>
-    <locale>pt-BR</locale>
-    <locale map-from="pt">pt-PT</locale>
-    <locale>ro</locale>
-    <locale>ru</locale>
-    <locale>si</locale>
-    <locale>sk</locale>
-    <locale>sl</locale>
-    <locale>sq</locale>
-    <locale map-from="sr">sr-Cyrl</locale>
-    <locale map-from="sr@latin">sr-Latn</locale>
-    <locale>sv</locale>
-    <locale map-from="ta">ta-IN</locale>
-    <locale>te</locale>
-    <locale>th</locale>
-    <locale>tl</locale>
-    <locale>tr</locale>
-    <locale>uk</locale>
-    <locale>vi</locale>
-    <locale>xh</locale>
+    <locale map-from="fa">fa</locale>
+    <locale map-from="fi">fi</locale>
+    <locale map-from="fr">fr</locale>
+    <locale map-from="ga">ga</locale>
+    <locale map-from="gl">gl</locale>
+    <locale map-from="gu">gu</locale>
+    <locale map-from="he">he</locale>
+    <locale map-from="hi">hi</locale>
+    <locale map-from="hr">hr</locale>
+    <locale map-from="hu">hu</locale>
+    <locale map-from="id">id</locale>
+    <locale map-from="is">is</locale>
+    <locale map-from="it">it</locale>
+    <locale map-from="ja">ja</locale>
+    <locale map-from="ka">ka</locale>
+    <locale>kk</locale>
+    <locale map-from="kn">kn</locale>
+    <locale map-from="ko">ko</locale>
+    <locale map-from="ky">ky</locale>
+    <locale map-from="la">la</locale>
+    <locale map-from="lt">lt</locale>
+    <locale map-from="lv">lv</locale>
+    <locale map-from="mai">mai</locale>
+    <locale map-from="ml">ml</locale>
+    <locale map-from="mn">mn</locale>
+    <locale map-from="mr">mr</locale>
+    <locale map-from="ms">ms</locale>
+    <locale map-from="nb">nb</locale>
+    <locale map-from="nds">nds</locale>
+    <locale map-from="nl">nl</locale>
+    <locale map-from="nn">nn</locale>
+    <locale map-from="or">or</locale>
+    <locale map-from="pa">pa</locale>
+    <locale map-from="pl">pl</locale>
+    <locale map-from="pt_BR">pt-BR</locale>
+    <locale>pt-PT</locale>
+    <locale map-from="ro">ro</locale>
+    <locale map-from="ru">ru</locale>
+    <locale map-from="si">si</locale>
+    <locale map-from="sk">sk</locale>
+    <locale map-from="sl">sl</locale>
+    <locale map-from="sq">sq</locale>
+    <locale>sr-Cyrl</locale>
+    <locale>sr-Latn</locale>
+    <locale map-from="sv">sv</locale>
+    <locale map-from="ta">ta</locale>
+    <locale>ta-IN</locale>
+    <locale map-from="te">te</locale>
+    <locale map-from="th">th</locale>
+    <locale map-from="tl">tl</locale>
+    <locale map-from="tr">tr</locale>
+    <locale map-from="uk">uk</locale>
+    <locale map-from="vi">vi</locale>
+    <locale map-from="xh">xh</locale>
     <locale map-from="zh_CN">zh-Hans-CN</locale>
     <locale map-from="zh_TW">zh-Hant-TW</locale>
   </locales>
