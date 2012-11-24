@@ -18,6 +18,8 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+from util import FontsTweakUtil
+
 class ChooserUI:
 
     def __init__(self, builder, model, filter_func):
@@ -29,6 +31,9 @@ class ChooserUI:
         self.filtered_model.set_visible_func(filter_func, self.filter)
         self.view.set_model(self.filtered_model)
         self.add = builder.get_object('button-add')
+
+        self.filter.set_property('secondary-icon-name',
+                                 FontsTweakUtil.check_symbolic(self.filter.get_property('secondary-icon-name')))
 
     def _set_cursor(self):
         iter = self.filtered_model.get_iter_first()

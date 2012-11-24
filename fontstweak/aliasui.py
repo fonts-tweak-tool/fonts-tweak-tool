@@ -50,6 +50,13 @@ class FontsTweakAliasUI:
         self.view_list = builder.get_object('alias-lang-list')
         self.filter = builder.get_object('checkbutton-filter')
         self.localized_name = builder.get_object('checkbutton-localized-name')
+
+        # check if current icon theme supports the symbolic icons
+        add_icon = builder.get_object('toolbutton-add-alias-lang')
+        add_icon.set_icon_name(FontsTweakUtil.check_symbolic(add_icon.get_icon_name()))
+        del_icon = builder.get_object('toolbutton-remove-alias-lang')
+        del_icon.set_icon_name(FontsTweakUtil.check_symbolic(del_icon.get_icon_name()))
+
         try:
             Easyfc.version()
             if len(Easyfc.Font.get_list('en', 'sans-serif', False)) == 0:

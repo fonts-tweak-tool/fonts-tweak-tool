@@ -82,3 +82,11 @@ class FontsTweakUtil:
             dict[lang] = string.join(tokens[3:], ' ')
 
         return dict
+
+    @classmethod
+    def check_symbolic(self, name):
+        theme = Gtk.IconTheme.get_default()
+        if not theme.has_icon(name):
+            return name.replace('-symbolic', '')
+        return name
+

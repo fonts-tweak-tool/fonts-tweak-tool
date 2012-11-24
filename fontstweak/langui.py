@@ -39,6 +39,16 @@ class FontsTweakLangUI:
         self.view.append_column(Gtk.TreeViewColumn(None, Gtk.CellRendererText(), text=0))
         self.view_list = builder.get_object('order-lang-list')
 
+        # check if current icon theme supports the symbolic icons
+        add_icon = builder.get_object('add-lang-order')
+        add_icon.set_icon_name(FontsTweakUtil.check_symbolic(add_icon.get_icon_name()))
+        del_icon = builder.get_object('remove-lang-order')
+        del_icon.set_icon_name(FontsTweakUtil.check_symbolic(del_icon.get_icon_name()))
+        up_icon = builder.get_object('move-up-order')
+        up_icon.set_icon_name(FontsTweakUtil.check_symbolic(up_icon.get_icon_name()))
+        down_icon = builder.get_object('move-down-order')
+        down_icon.set_icon_name(FontsTweakUtil.check_symbolic(down_icon.get_icon_name()))
+
         self.listobj = Gtk.ListStore(GObject.TYPE_STRING, GObject.TYPE_STRING)
 
         self.langlist = FontsTweakUtil.get_language_list(False)

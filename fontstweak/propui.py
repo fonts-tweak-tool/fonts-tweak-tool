@@ -48,6 +48,12 @@ class FontsTweakPropUI:
         self.radio_hinting = builder.get_object('radiobutton-hinting')
         self.radio_autohinting = builder.get_object('radiobutton-autohinting')
 
+        # check if current icon theme supports the symbolic icons
+        add_icon = builder.get_object('add-font')
+        add_icon.set_icon_name(FontsTweakUtil.check_symbolic(add_icon.get_icon_name()))
+        del_icon = builder.get_object('remove-font')
+        del_icon.set_icon_name(FontsTweakUtil.check_symbolic(del_icon.get_icon_name()))
+
         self.listobj = Gtk.ListStore(GObject.TYPE_STRING)
         fonts = Easyfc.Font.get_list(None, None, False)
         if len(fonts) == 0:
