@@ -170,6 +170,7 @@ class FontsTweakPropUI:
         self.__apply_changes(lambda o: o.set_embedded_bitmap(widget.get_active()))
 
     def on_radiobutton_no_hinting_toggled(self, widget):
+        self.combobox_hintstyle.set_sensitive(not widget.get_active())
         if not widget.get_active():
             return
         self.__apply_changes(lambda o: o.set_hinting(False) == o.set_autohinting(False))
@@ -180,7 +181,6 @@ class FontsTweakPropUI:
         self.__apply_changes(lambda o: o.set_hinting(True) == o.set_autohinting(False))
 
     def on_radiobutton_autohinting_toggled(self, widget):
-        self.combobox_hintstyle.set_sensitive(widget.get_active())
         if not widget.get_active():
             return
         cb = (lambda o: o.set_hinting(False) == o.set_autohinting(True))
