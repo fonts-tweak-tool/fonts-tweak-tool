@@ -50,6 +50,7 @@ class FontsTweakAliasUI:
         self.view_list = builder.get_object('alias-lang-list')
         self.filter = builder.get_object('checkbutton-filter')
         self.localized_name = builder.get_object('checkbutton-localized-name')
+        self.classification_filter = builder.get_object('checkbutton-filter')
 
         # check if current icon theme supports the symbolic icons
         add_icon = builder.get_object('toolbutton-add-alias-lang')
@@ -114,12 +115,15 @@ class FontsTweakAliasUI:
             if iter != None:
                 font = model.get_value(iter, 0)
                 self.config.remove_alias(lang, alias)
-                a = Easyfc.Alias.new(alias)
-                try:
-                    a.set_font(font)
-                    self.config.add_alias(lang, a)
-                except gi._glib.GError:
-                    pass
+                if not font in self.alias_names:
+                    a = Easyfc.Alias.new(alias)
+                    if self.classification_filter.get_active():
+                        a.check_font_existence(False)
+                    try:
+                        a.set_font(font)
+                        self.config.add_alias(lang, a)
+                    except gi._glib.GError, e:
+                        pass
                 try:
                     self.config.save()
                 except gi._glib.GError, e:
